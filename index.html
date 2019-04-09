@@ -1,0 +1,395 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+    <title>Jeanelle Chek</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+
+
+    <!-- Font -->
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700%7CAllura" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link href="common-css/bootstrap.css" rel="stylesheet">
+
+    <link href="common-css/ionicons.css" rel="stylesheet">
+
+    <link href="common-css/fluidbox.min.css" rel="stylesheet">
+
+    <link href="01-cv-portfolio/css/styles.css" rel="stylesheet">
+
+    <link href="01-cv-portfolio/css/responsive.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <section class="intro-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1 col-lg-2"></div>
+                <div class="col-md-10 col-lg-8">
+                    <div class="intro">
+                        <div class="profile-img"><img src="images/profile.jpg" alt=""></div>
+                        <h2>Hi, I'm <b class="font-yellow">Jeanelle</b></h2>
+                        <ul class="information margin-tb-30">
+                            <li>Final Year Student Computer Science at Nanyang Technological University.</li>
+                            <li>I develop Web, Desktop and Mobile Applications. </li>
+							
+                        </ul>
+                        <ul class="social-icons">
+                            <li><a href="https://www.linkedin.com/in/jeanelle-chek-68b545147/"><i class="ion-social-linkedin"></i></a></li>
+                            <li><a href="https://www.instagram.com/stories/jeanellechek"><i class="ion-social-instagram"></i></a></li>
+							<li><a href="https://github.com/jeanellechek"><i class="ion-social-github"></i></a></li>
+							<li><a onclick="sendMail();"><i class="ion-email"></i> Contact me</button></li>
+                        </ul>
+                    </div><!-- intro -->
+                </div><!-- col-sm-8 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- intro-section -->
+
+    <section class="portfolio-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="heading">
+                        <h3><b>Portfolio</b></h3>
+                        <h6 class="font-lite-black"><b>MY WORK</b></h6>
+                    </div>
+                </div><!-- col-sm-4 -->
+                <div class="col-sm-8">
+                    <div class="portfolioFilter clearfix margin-b-80">
+                        <a href="#" data-filter="*" class="current"><b>ALL</b></a>
+                        <a href="#" data-filter=".webDev"><b>WEBSITES</b></a>
+                        <a href="#" data-filter=".mobileDev"><b>MOBILE APPLICATIONS</b></a>
+
+                    </div><!-- portfolioFilter -->
+                </div><!-- col-sm-8 -->
+            </div><!-- row -->
+        </div><!-- container -->
+
+        <div class="portfolioContainer" style="margin:50px;">
+
+            <div class="p-item webDev">
+                <a href="#" id="website1"><img src="images/Website1.png" style="width:350px;"/></a>
+				<h5 style="text-align:center;">CHAS Locator</h5>
+            </div><!-- p-item -->
+			
+			<div class="p-item webDev">
+                <a href="#" id="website2"><img src="images/Website2.png" style="width:350px;"/></a>
+				<h5 style="text-align:center;">Delivery Dispatch System</h5>
+            </div><!-- p-item -->
+			
+			<div class="p-item mobileDev">
+                <a href="#" id="mobile1"><img src="images/Mobile1.png" style="width:350px;"/></a>
+				<h5 style="text-align:center;">Calories Calculator</h5>
+            </div><!-- p-item -->
+
+        </div><!-- portfolioContainer -->
+
+    </section><!-- portfolio-section -->
+
+
+    <section class="about-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="heading">
+                        <h3><b>About me</b></h3>
+                        <h6 class="font-lite-black"><b>PROFESSIONAL PATH</b></h6>
+                    </div>
+                </div><!-- col-sm-4 -->
+                <div class="col-sm-8">
+                    <p class="margin-b-50">
+                        My name is <b class="font-yellow">Jeanelle</b> and I am a <b class="font-yellow">Computer Science</b> undergraduate at Nanyang Technological University(NTU).
+                        I specialized in Artificial Intelligence and Data Science, which dealt with modules such as Machine Learning and Natural Language Processing. During my journey as a student, I also found my passion in <b class="font-yellow">Software Development</b> and aspire to be a <b class="font-yellow">Software Developer</b>.
+                        I possess a diverse set of skills, ranging from progamming language such as C#, Java, PHP to utilizing frameworks like nodeJS and .NET CORE.
+                        I have also acquired a <b class="font-yellow">Diploma in Multimedia and Infocomm</b> back in 2016 at Nanyang Polytechnic.
+                        I am an open-minded individual who sees every challenge as an opportunity.
+
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-3">
+                                <div class="radial-prog-area margin-b-30">
+                                    <div class="radial-progress" data-prog-percent=".80">
+                                        <div></div>
+                                        <h6 class="progress-title">HTML5 & CSS3</h6>
+                                    </div>
+                                </div><!-- radial-prog-area-->
+                            </div><!-- col-sm-6-->
+
+                            <div class="col-sm-6 col-md-6 col-lg-3">
+                                <div class="radial-prog-area margin-b-30">
+                                    <div class="radial-progress" data-prog-percent=".70">
+                                        <div></div>
+                                        <h6 class="progress-title">MOBILE APPS</h6>
+                                    </div>
+                                </div><!-- radial-prog-area-->
+                            </div><!-- col-sm-6-->
+
+                            <div class="col-sm-6 col-md-6 col-lg-3">
+                                <div class="radial-prog-area margin-b-30">
+                                    <div class="radial-progress" data-prog-percent=".65">
+                                        <div></div>
+                                        <h6 class="progress-title">JAVA</h6>
+                                    </div>
+                                </div><!-- radial-prog-area-->
+                            </div><!-- col-sm-6-->
+
+                            <div class="col-sm-6 col-md-6 col-lg-3">
+                                <div class="radial-prog-area margin-b-50">
+                                    <div class="radial-progress" data-prog-percent=".75">
+                                        <div></div>
+                                        <h6 class="progress-title">PHP</h6>
+                                    </div>
+                                </div><!-- radial-prog-area-->
+                            </div><!-- col-sm-6-->
+
+                        </div><!-- row -->
+                </div><!-- col-sm-8 -->
+            </div><!-- row -->
+        </div><!-- container -->
+    </section><!-- about-section -->
+
+    <section class="experience-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="heading">
+                        <h3><b>Work Experience</b></h3>
+                        <h6 class="font-lite-black"><b>PREVIOUS JOBS</b></h6>
+                    </div>
+                </div><!-- col-sm-4 -->
+                <div class="col-sm-8">
+
+                    <div class="experience margin-b-50">
+                        <h4><b>SOFTWARE ENGINEERING (INTERN)</b></h4>
+                        <h5 class="font-yellow"><b>CRIMSONLOGIC PTE LTD, SINGAPORE</b></h5>
+                        <h6 class="margin-t-10">MAY 2018 - AUG 2018</h6>
+                        <ul class="list margin-b-30">
+                            <li>Design and develop Rental Property Management System (RPMS)</li>
+                            <li>Prepare various forms of documentation required during a SDLC</li>
+                        </ul>
+                        <p class="font-semi-white margin-tb-30">
+                            <a href="images/crimsonlogic.jpeg" data-fluidbox>
+                                <img src="images/crimsonlogic.jpg" style="width:500px;" alt=""></a></center>
+                        </p>
+
+
+                    </div><!-- experience -->
+
+                    <div class="experience margin-b-50">
+                        <h4><b>WEB DEVELOPER</b></h4>
+                        <h5 class="font-yellow"><b>SKYFY TECHNNOLOGY PTE LTD, SINGAPORE</b></h5>
+                        <h6 class="margin-t-10">JUN 2017 - AUG 2017</h6>
+                        <ul class="list margin-b-30">
+                            <li>Design and develop new job dispatch system for clients. The work includes user interface design, database design, framework design and coding.</li>
+                            <li>Conduct a detailed survey of company daily operation and provide consultancy for the digitization of daily operation.</li>
+                            <li>Design and develop the warehouse management system and integrate with newly built job dispatch system.</li>
+                            <li>Build efficient, testable, and reusable PHP modules</li>
+                            <li>Assist in daily operation of IT department, troubleshooting and problem-solving for customers.</li>
+                        </ul>
+                    </div><!-- experience -->
+
+                    <div class="experience margin-b-50">
+                        <h4><b>MARCOM (INTERN)</b></h4>
+                        <h5 class="font-yellow"><b>AZTECH GROUP, SINGAPORE AND CHINA (DONGGUAN)</b></h5>
+                        <h6 class="margin-t-10">JUN 2017 - AUG 2017</h6>
+                        <ul class="list margin-b-30">
+                            <li>Revamp and develop existing company website. The work includes user interface design, database design, framework design and coding.</li>
+                            <li>Conduct a detailed survey of company daily operation and provide consultancy for the digitization of daily operation.</li>
+                            <li>Assist in daily operation of IT department, troubleshooting and problem-solving for customers.</li>
+                            <li>Shoot and produce interactive videos for marketing purposes.</li>
+                        </ul>
+                    </div><!-- experience -->
+
+                </div><!-- col-sm-8 -->
+            </div><!-- row -->
+        </div><!-- container -->
+
+    </section><!-- experience-section -->
+
+    <section class="education-section section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="heading">
+                        <h3><b>Education</b></h3>
+                        <h6 class="font-lite-black"><b>ACADEMIC CAREER</b></h6>
+                    </div>
+                </div><!-- col-sm-4 -->
+                <div class="col-sm-8">
+                    <div class="education-wrapper">
+                        <div class="education margin-b-50">
+                            <h4><b>BACHELOR DEGREE IN ENGEERING (COMPUTER SCIENCE)</b></h4>
+                            <h5 class="font-yellow"><b>NANYANG TECHNNOLOGY UNIVERSITY</b></h5>
+                            <h6 class="font-lite-black margin-t-10">GRADUATING IN 2020</h6>
+                            <p class="margin-tb-30">Specialized in Aritifical Intelligence and Data Science which dealt with modules such as Machine Learning and Natural Language
+                                Processing.<br /><br />
+                                <b>Final Year Project: Android mobile application for Price Comparison and Sharing</b><br />
+                            </p>
+
+
+                        </div><!-- education -->
+
+                        <div class="education margin-b-50">
+                            <h4><b>DIPLOMA IN MULTIMEDIA AND INFOCOMM TECHNOLOGY</b></h4>
+                            <h5 class="font-yellow"><b>NANYANG POLYTECHNIC</b></h5>
+                            <h6 class="font-lite-black margin-t-10">GRADUATED IN 2016</h6>
+                            <p class="margin-tb-30">Specialized in Infocomm Solutions which dealt with modules such as Mobile Application Development and Java Enterprise Development.</p>
+                        </div><!-- row -->
+                    </div><!-- container -->
+
+    </section><!-- about-section -->
+
+
+    <footer>
+        <p class="copyright">
+            Copyright &copy;<script>
+                document.write(new Date().getFullYear());
+            </script> All rights reserved
+        </p>
+
+
+    </footer>
+    <!-- JQUERY FOR MODALS -->
+    <script>
+        $(document).ready(function() {
+		//website 1
+            $("#website1").click(function() {
+                $("#website1Modal").modal("show");
+            });
+
+
+            $("#website1Modal").on('show.bs.modal', function() {
+                var vid = document.getElementById("website1Video");
+                vid.play();
+            });
+            $("#website1Modal").on('hide.bs.modal', function() {
+                var vid = document.getElementById("website1Video");
+                vid.pause();
+            });
+		
+		//website 2
+		  $("#website2").click(function() {
+                $("#website2Modal").modal("show");
+            });
+
+
+            $("#website2Modal").on('show.bs.modal', function() {
+                var vid = document.getElementById("website2Video");
+                vid.play();
+            });
+            $("#website2Modal").on('hide.bs.modal', function() {
+                var vid = document.getElementById("website2Video");
+                vid.pause();
+            });
+			
+			//mobile 1
+		  $("#mobile1").click(function() {
+                $("#mobile1Modal").modal("show");
+            });
+
+
+            $("#mobile1Modal").on('show.bs.modal', function() {
+                var vid = document.getElementById("mobile1Video");
+                vid.play();
+            });
+            $("#mobile1Modal").on('hide.bs.modal', function() {
+                var vid = document.getElementById("mobile1Video");
+                vid.pause();
+            });
+        });
+		
+		function sendMail(){
+   window.location="mailto:chekjeanelle@gmail.com?subject=Enquiries";
+}
+    </script>
+
+    <!-- SCIPTS -->
+
+    <script src="common-js/jquery-3.2.1.min.js"></script>
+
+    <script src="common-js/tether.min.js"></script>
+
+    <script src="common-js/bootstrap.js"></script>
+
+    <script src="common-js/isotope.pkgd.min.js"></script>
+
+    <script src="common-js/jquery.waypoints.min.js"></script>
+
+    <script src="common-js/progressbar.min.js"></script>
+
+    <script src="common-js/jquery.fluidbox.min.js"></script>
+
+    <script src="common-js/scripts.js"></script>
+
+
+
+<!-- Modal for website 1 -->
+    <div class="modal fade" id="website1Modal" tabindex="-1" role="dialog" aria-labelledby="website1Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">CHAS Locator </h4>
+                </div>
+                <div class="modal-body">
+                   <center> <video id="website1Video" width="450" height="350" controls>
+                        <source src="videos/website1.mp4" type="video/mp4">
+                    </video></center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<!-- Modal for website 2 -->
+	    <div class="modal fade" id="website2Modal" tabindex="-1" role="dialog" aria-labelledby="website2Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Delivery Dispatch System</h4>
+                </div>
+                <div class="modal-body">
+                   <center> <video id="website2Video" width="450" height="350" controls>
+                        <source src="videos/website2.mp4" type="video/mp4">
+                    </video></center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+	
+	<!-- Modal for mobile 1 -->
+	    <div class="modal fade" id="mobile1Modal" tabindex="-1" role="dialog" aria-labelledby="mobile1Modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Calories Calculator </h4>
+                </div>
+                <div class="modal-body">
+                    <center><video id="mobile1Video" width="350" height="450" controls>
+                        <source src="videos/mobile1.mp4" type="video/mp4">
+                    </video></center>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
